@@ -67,7 +67,7 @@ bool chargerMatrice(MatriceAdjacent *mat, string nomFichier){
 //  Exercice 4
 //-------------------------
 
-bool estComplet(MatriceAdjacent mat){
+bool estComplet(MatriceAdjacent mat){ // hors Diagonal doivent être tous égale à 1
     for (int i = 0; i < mat.ordre; i++)
     {
         for (int j = 0; j < mat.ordre; i++)
